@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../MyDelhi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="m-3">
+    <a class="text-decoration-none survey-link" href="./Frames/Places.html">
+        Go Back
+    </a>
+    <h1>Survey form</h1>
+    <form action="Delhi.html">
+        <label>Name:<br>
+            <input type="text" name="name" placeholder="Your Name"><br>
+        </label>
+        <p>Please select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <label>Please enter your contact no.: <br>
+            <input type="text">
+        </label><br><br>
+
+        <label for="ratings">Rate our site: </label>
+
+        <select name="ratings" id="ratings">
+            <option value="">⭐⭐⭐⭐⭐</option>
+            <option value="">⭐⭐⭐⭐</option>
+            <option value="">⭐⭐⭐</option>
+            <option value="">⭐⭐</option>
+        </select>
+        <br>
+
+        <label>planning to visit Delhi?
+            <input type="date">
+        </label>
+        <br>
+        <input type="reset" value="Reset">
+        <br>
+    </form>
+</body>

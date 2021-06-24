@@ -1,0 +1,39 @@
+.background-image {
+    background-image: url('./Images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7.2%;
+}
+
+.heading {
+    text-align: center;
+    background: rgba(250, 250, 250, 0.3);
+    font-weight: bold;
+    height: 100px;
+    vertical-align: middle;
+    color: indigo;
+    padding-top: 2%;
+}
+
+.survey-link {
+    color: blue;
+    font-weight: 500;
+}
+
+.hyperlinks {
+    background: white;
+    border: 2px solid indigo;
+    color: indigo;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 3px 20px;
+}
+
+.hyperlinks:hover {
+    background: indigo;
+    color: white;
+}
+
+.hyperlinks:focus {
+    outline: none;
+}
